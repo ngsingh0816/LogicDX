@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284F55B21AE997C6008B0C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284F55B11AE997C6008B0C60 /* AppDelegate.m */; };
+		284F55B41AE997C6008B0C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284F55B31AE997C6008B0C60 /* main.m */; };
+		284F55B61AE997C7008B0C60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284F55B51AE997C7008B0C60 /* Images.xcassets */; };
+		284F55B91AE997C7008B0C60 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 284F55B71AE997C7008B0C60 /* MainMenu.xib */; };
+		284F55C51AE997C7008B0C60 /* LogicDXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 284F55C41AE997C7008B0C60 /* LogicDXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284F55BF1AE997C7008B0C60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284F55A31AE997C6008B0C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284F55AA1AE997C6008B0C60;
+			remoteInfo = LogicDX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284F55AB1AE997C6008B0C60 /* LogicDX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicDX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284F55AF1AE997C6008B0C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284F55B01AE997C6008B0C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		284F55B11AE997C6008B0C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		284F55B31AE997C6008B0C60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284F55B51AE997C7008B0C60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		284F55B81AE997C7008B0C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		284F55BE1AE997C7008B0C60 /* LogicDXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogicDXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284F55C31AE997C7008B0C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284F55C41AE997C7008B0C60 /* LogicDXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicDXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284F55A81AE997C6008B0C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284F55BB1AE997C7008B0C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284F55A21AE997C6008B0C60 = {
+			isa = PBXGroup;
+			children = (
+				284F55AD1AE997C6008B0C60 /* LogicDX */,
+				284F55C11AE997C7008B0C60 /* LogicDXTests */,
+				284F55AC1AE997C6008B0C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284F55AC1AE997C6008B0C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284F55AB1AE997C6008B0C60 /* LogicDX.app */,
+				284F55BE1AE997C7008B0C60 /* LogicDXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284F55AD1AE997C6008B0C60 /* LogicDX */ = {
+			isa = PBXGroup;
+			children = (
+				284F55B01AE997C6008B0C60 /* AppDelegate.h */,
+				284F55B11AE997C6008B0C60 /* AppDelegate.m */,
+				284F55B51AE997C7008B0C60 /* Images.xcassets */,
+				284F55B71AE997C7008B0C60 /* MainMenu.xib */,
+				284F55AE1AE997C6008B0C60 /* Supporting Files */,
+			);
+			path = LogicDX;
+			sourceTree = "<group>";
+		};
+		284F55AE1AE997C6008B0C60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				284F55AF1AE997C6008B0C60 /* Info.plist */,
+				284F55B31AE997C6008B0C60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		284F55C11AE997C7008B0C60 /* LogicDXTests */ = {
+			isa = PBXGroup;
+			children = (
+				284F55C41AE997C7008B0C60 /* LogicDXTests.m */,
+				284F55C21AE997C7008B0C60 /* Supporting Files */,
+			);
+			path = LogicDXTests;
+			sourceTree = "<group>";
+		};
+		284F55C21AE997C7008B0C60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				284F55C31AE997C7008B0C60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284F55AA1AE997C6008B0C60 /* LogicDX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284F55C81AE997C7008B0C60 /* Build configuration list for PBXNativeTarget "LogicDX" */;
+			buildPhases = (
+				284F55A71AE997C6008B0C60 /* Sources */,
+				284F55A81AE997C6008B0C60 /* Frameworks */,
+				284F55A91AE997C6008B0C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogicDX;
+			productName = LogicDX;
+			productReference = 284F55AB1AE997C6008B0C60 /* LogicDX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		284F55BD1AE997C7008B0C60 /* LogicDXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284F55CB1AE997C7008B0C60 /* Build configuration list for PBXNativeTarget "LogicDXTests" */;
+			buildPhases = (
+				284F55BA1AE997C7008B0C60 /* Sources */,
+				284F55BB1AE997C7008B0C60 /* Frameworks */,
+				284F55BC1AE997C7008B0C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284F55C01AE997C7008B0C60 /* PBXTargetDependency */,
+			);
+			name = LogicDXTests;
+			productName = LogicDXTests;
+			productReference = 284F55BE1AE997C7008B0C60 /* LogicDXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284F55A31AE997C6008B0C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Neil Singh";
+				TargetAttributes = {
+					284F55AA1AE997C6008B0C60 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					284F55BD1AE997C7008B0C60 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 284F55AA1AE997C6008B0C60;
+					};
+				};
+			};
+			buildConfigurationList = 284F55A61AE997C6008B0C60 /* Build configuration list for PBXProject "LogicDX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284F55A21AE997C6008B0C60;
+			productRefGroup = 284F55AC1AE997C6008B0C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284F55AA1AE997C6008B0C60 /* LogicDX */,
+				284F55BD1AE997C7008B0C60 /* LogicDXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284F55A91AE997C6008B0C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284F55B61AE997C7008B0C60 /* Images.xcassets in Resources */,
+				284F55B91AE997C7008B0C60 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284F55BC1AE997C7008B0C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284F55A71AE997C6008B0C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284F55B41AE997C6008B0C60 /* main.m in Sources */,
+				284F55B21AE997C6008B0C60 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284F55BA1AE997C7008B0C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284F55C51AE997C7008B0C60 /* LogicDXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		284F55C01AE997C7008B0C60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284F55AA1AE997C6008B0C60 /* LogicDX */;
+			targetProxy = 284F55BF1AE997C7008B0C60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		284F55B71AE997C7008B0C60 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284F55B81AE997C7008B0C60 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284F55C61AE997C7008B0C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		284F55C71AE997C7008B0C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		284F55C91AE997C7008B0C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LogicDX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		284F55CA1AE997C7008B0C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LogicDX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		284F55CC1AE997C7008B0C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LogicDXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicDX.app/Contents/MacOS/LogicDX";
+			};
+			name = Debug;
+		};
+		284F55CD1AE997C7008B0C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LogicDXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogicDX.app/Contents/MacOS/LogicDX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284F55A61AE997C6008B0C60 /* Build configuration list for PBXProject "LogicDX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284F55C61AE997C7008B0C60 /* Debug */,
+				284F55C71AE997C7008B0C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284F55C81AE997C7008B0C60 /* Build configuration list for PBXNativeTarget "LogicDX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284F55C91AE997C7008B0C60 /* Debug */,
+				284F55CA1AE997C7008B0C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		284F55CB1AE997C7008B0C60 /* Build configuration list for PBXNativeTarget "LogicDXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284F55CC1AE997C7008B0C60 /* Debug */,
+				284F55CD1AE997C7008B0C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284F55A31AE997C6008B0C60 /* Project object */;
+}
