@@ -7,8 +7,21 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "LDXGridView.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+	IBOutlet NSScrollView* gridScroll;
+	
+	LDXGridView* gridView;
+}
+
+- (IBAction) gridSelectionRegular:(id)sender;
+- (IBAction) gridSelectionElement:(id)sender;
+- (IBAction) gridSelectionMove:(id)sender;
+
+- (IBAction) viewZoomIn:(id)sender;
+- (IBAction) viewZoomOut:(id)sender;
 
 
 @end
